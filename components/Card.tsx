@@ -13,7 +13,7 @@ const Card: React.FC<Props> = ({ label, color, img }) => {
         color,
       ].join(" ")}
     >
-      <h2 className="text-white font-semibold text-3xl md:px-4 mt-4">
+      <h2 className="text-white font-semibold text-3xl px-4 mt-4">
         {label}
       </h2>
       <img

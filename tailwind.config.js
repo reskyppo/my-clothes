@@ -7,6 +7,7 @@ module.exports = {
         "accent-1": "#333",
         pinky: "#F46188",
         blue: "#7779FF",
+        grey: "#8C999A",
       },
     },
   },
