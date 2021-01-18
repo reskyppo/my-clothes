@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import CardLabel from "./CardLabel";
 import Carousel from "./Carousel";
 const Home = () => {
   return (
@@ -10,17 +10,17 @@ const Home = () => {
       {/* if i have more categories */}
       <section className="py-8 ">
         <div className=" hidden md:flex  justify-center items-center">
-          <Card label="Girls" color="bg-pinky" img="/images/Girls.png" />
-          <Card label="Boys" color="bg-blue" img="/images/Boys.png" />
+          <CardLabel label="Girls" color="bg-pinky" img="/images/Girls.png" />
+          <CardLabel label="Boys" color="bg-blue" img="/images/Boys.png" />
         </div>
         <div className="]flex md:hidden">
           <Carousel />
         </div>
       </section>
 
-      <section className="flex flex-row justify-between items-center px-8">
+      <section className="flex flex-row justify-between md:justify-start items-center px-8">
         <h1 className="font-semibold text-xl">Recommeded</h1>
-        <p className="text-base text-gray-500">see all</p>
+        <p className="text-base text-gray-500 md:mx-4">see all</p>
       </section>
     </div>
   );

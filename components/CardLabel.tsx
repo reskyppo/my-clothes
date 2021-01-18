@@ -6,7 +6,7 @@ interface Props {
   onDragStart?: any;
 }
 
-const Card: React.FC<Props> = ({ label, color, img, onDragStart }) => {
+const CardLabel: React.FC<Props> = ({ label, color, img, onDragStart }) => {
   return (
     <div
       className={[
@@ -25,4 +25,4 @@ const Card: React.FC<Props> = ({ label, color, img, onDragStart }) => {
   );
 };
 
-export default Card;
+export default CardLabel;
